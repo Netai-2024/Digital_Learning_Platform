@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400;500;700&display=swap');
+
+.container{
+    display: flex;
+    gap: 2rem;
+    font-family: 'Roboto Slab', serif;
+    justify-content: center;
+}
+.left{
+    width: 908px;
+    border-right: 1px solid black;
+}
+.left video{
+    border: 1px solid black;
+    border-bottom-left-radius: 7px ;
+    border-bottom-right-radius: 7px ;
+}
+.left p{
+    font-size: 1.2rem;
+    margin: 0.5rem;
+    font-size: bold;
+}
+textarea{
+    background-color: rgb(244, 241, 241);
+    border-radius: 7px;
+    font-size: 1.1rem;
+    padding: 0.7rem;
+    box-sizing: border-box;
+    margin-top: 0.5rem;
+    border: 1px solid rgb(118, 8, 215);
+}
+.right a img{
+    width: 12rem;
+    height: 7rem;
+    border-radius: 0.6rem;
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+    gap: 1rem;
+    max-width: 27rem;
+    margin-bottom: 1rem;
+}
+
+#download{
+    padding: 1rem;
+    font-size: 1.5rem;
+    background-color: rgb(2, 178, 254);
+    color: white;
+    font-weight: bold;
+    border-radius: 15px;
+}
+#download img{
+    height: 1.3rem;
+    width: 1.6rem;
+}
+#download:hover{
+    color: rgb(2, 170, 255);
+    background-color: white;
+    border: 2px solid rgb(0, 170, 255);;
+}
+#btn{
+    margin-top: 0.7rem;
+    width: 900px;
+    display: flex;
+    justify-content: end;
+}
+textarea{
+    resize: none;
+}

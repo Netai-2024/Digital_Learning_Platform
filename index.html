@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIH</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <nav class="flex ">
+                <div class="left flex center">
+                    <img class="" src="logo.png" alt="">
+                    <h1>Knowledge Junction</h1>
+                </div>
+                <div class="middle flex">
+                    <ul class="flex ">
+                        <li><a href="#Home">Home </a></li>
+                        <li><a href="#About">About Us </a></li>
+                        <li>
+                            <a href="#Courses">Courses </a>
+                            <ul class="dropdown">
+                                <li><a href="page2.html">DSA</a></li>
+                                <li><a href="#">C</a></li>
+                                <li><a href="#">C++</a></li>
+                                <li><a href="#">JAVA</a></li>
+                                <li><a href="#">Python</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#contact">Contact Us </a></li>
+                    </ul>
+                </div>
+                <div class="right">
+                    <a class="btn" style="text-decoration: none;" href="dashboard.html">Dashboard</a>
+                    <button class="btn js-login-button" onClick="
+                    myFunction();
+                    ">Login</button>
+                </div>
+            </nav>
+        </header>
+        
+        <section id="Home" class=" flex space-even  ">
+            <div class="home-left">
+                <h1>Welcome to Knowledge Junction</h1>
+                <h2>Your Personalised Learning Space</h2>
+
+            </div>
+            <div class="home-right">
+                <img src="photo.png" alt="">
+            </div>
+        </section>
+
+        <section id="About" class="flex center">
+            <div>
+                <img src="about.png" alt="">
+            </div>
+            <div class="about">
+                <h1>About Us</h1>
+                <p>Welcome to our Smart Education platform! At Knowledge Junction, we're dedicated to revolutionizing
+                    learning. Our mission is to empower students and educators with cutting-edge technology and
+                    resources. We provide a diverse range of courses, interactive tools, and a vibrant online community,
+                    fostering collaborative learning. Join us in shaping the future of education!</p>
+            </div>
+
+
+        </section>
+        <section class="community flex center column">
+            <h1>WHY KNOWLEDGE JUNCTION?</h1>
+            <p class="why ">Making learning easier and more convenient for you.</p>
+            <div class="features">
+                <div class="cards">
+                    <div class="card-heading">Discussion Forum</div>
+                    <div>
+                        <p class="describe">An interactive platform where students and teachers can engage in online
+                            conversations, exchange ideas, fostering collaborative learning.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-heading">Collaborative Learning</div>
+                    <div>
+                        <p class="describe">Creating a Collaborative system to enhance learning through teamwork and
+                            technology for students.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-heading">Hand-Picked Questions</div>
+                    <div>
+                        <p class="describe">Get access to hand-picked questions across categories & difficulty levels
+                            that
+                            will prepare you for every exam you would encounter.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-heading">Open Source Contributions</div>
+                    <div>
+                        <p class="describe"> Allows a global community to enhance and innovate e-learning platforms,
+                            making
+                            education more accessible, customizable, and effective.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-heading"> Learn At your own pace</div>
+                    <div>
+                        <p class="describe">Discover the freedom to learn at your own pace on our smart education
+                            website,
+                            where you control
+                            your educational journey.</p>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card-heading"> Multilingual</div>
+                    <div>
+                        <p class="describe">ensures a diverse, inclusive learning environment, allowing students to
+                            access content in their preferred language on our smart education website.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="flex space-even">
+            <div class="form flex center column">
+            <h1>Contact us</h1>
+            <form class="flex column">
+                <label for="name">Name :</label>
+                <input type="text" id="name" placeholder="Enter your name">
+
+                <label for="phone">Phone no. :</label>
+                <input type="number" id="phone" placeholder="Enter your phone no.">
+
+                <label for="email">Email :</label>
+                <input type="email" id="email" placeholder="Enter your email">
+
+                <label for="subject">Subject :</label>
+                <input type="text" id="subject" placeholder="Subject">
+
+               
+                <textarea id="text" cols="60" rows="10" placeholder="Message"></textarea>
+               
+                <input class="submit" type="submit" value="Submit">
+            </form>
+        </div>
+            <div>
+                <img src="contact.png" alt="">
+            </div>
+           </section>
+        
+        <footer class="flex center">
+            <p>Copyright &#169 2023 Sorting Knowledge Junction  Technologies Pvt Ltd.All Rights Reserved.</p>
+        </footer>
+    </div>
+
+    <script>
+        function myFunction() {
+      window.location.href = "login.html";
+    }
+    </script>
+</body>
+
+</html>
